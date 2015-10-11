@@ -70,7 +70,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/w91379137/PDSystem.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/w91379137/PDSystem.git", :commit => "468ce50855e272f461838d1e8eebb997ab2000b4" , :tag => “0.0.1”}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/**/*'
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

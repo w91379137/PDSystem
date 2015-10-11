@@ -70,7 +70,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/w91379137/PDSystem.git", :commit => "ef9f24a5d2c73223b49aa3d1d04379d037c8474f" , :tag => “0.0.1”}
+  s.source       = { :git => "https://github.com/w91379137/PDSystem.git" , :tag => “0.0.1”  }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
